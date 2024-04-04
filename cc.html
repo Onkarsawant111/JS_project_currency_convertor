@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Convertor</title>
+    <link rel="stylesheet" href="cc.css">
+</head>
+
+<body>
+    <div>
+        <form>
+            From:
+            <select id="from">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+            To:
+            <select id="to">
+                <option value="INR">INR</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+            </select>
+            Amount:
+            <input type="text" id="amount">
+            <button type="button" id="convert">Convert</button>
+            Converted amount:
+            <p id="result"></p>
+        </form>
+    </div>
+    <script src="cc.js"></script>
+</body>
+
+</html>
